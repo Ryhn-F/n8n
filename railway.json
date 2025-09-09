@@ -1,0 +1,10 @@
+{
+  "build": {
+    "builder": "DOCKERFILE"
+  },
+  "deploy": {
+    "numReplicas": 1,
+    "startCommand": "n8n",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
