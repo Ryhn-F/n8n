@@ -1,8 +1,0 @@
-{
-  "build": { "builder": "DOCKERFILE" },
-  "deploy": {
-    "numReplicas": 1,
-    "restartPolicyType": "ON_FAILURE",
-    "startCommand": "bash -lc 'export N8N_PORT=${PORT:-5678} N8N_LISTEN_ADDRESS=0.0.0.0; n8n'"
-  }
-}
